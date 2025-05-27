@@ -8,7 +8,7 @@ function love.load()
     GameState.current = nil
 
     -- Load gameplay state
-    Gameplay = require("Gameplay") -- Loads Gameplay.lua
+    Gameplay = require("Scripts.Gameplay") -- Loads Scripts/Gameplay.lua
 
     -- For now, directly assign Gameplay as we only have one state.
     -- Later, we'll have a proper state switcher.
